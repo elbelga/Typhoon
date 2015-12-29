@@ -739,7 +739,117 @@
 		BAA245801C32C0AA00472525 /* TyphoonGlobalConfigCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1187A71BEFE452008859E0 /* TyphoonGlobalConfigCollector.m */; };
 		BAA245811C32C0AA00472525 /* TyphoonDefinitionNamespace.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1C1651BF8E0DC007030A5 /* TyphoonDefinitionNamespace.m */; };
 		BAA245821C32C0AA00472525 /* TyphoonDefinition+Namespacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1C1681BF8E169007030A5 /* TyphoonDefinition+Namespacing.m */; };
-		BABA302A1C2816BD00301070 /* (null) in Headers */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA245F81C32D79E00472525 /* TyphoonBundledImageTypeConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F561936F63A0083714E /* TyphoonBundledImageTypeConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA245F91C32D79E00472525 /* TyphoonTypeConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F6E1936F63A0083714E /* TyphoonTypeConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA245FA1C32D79E00472525 /* TyphoonTypeConverterRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F6F1936F63A0083714E /* TyphoonTypeConverterRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA245FB1C32D79E00472525 /* TyphoonStoryboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F521936F63A0083714E /* TyphoonStoryboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA245FC1C32D79E00472525 /* TyphoonInjectedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA1AAA97CFD706F6E4EEF7 /* TyphoonInjectedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA245FD1C32D79E00472525 /* TyphoonComponentsPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F1D1936F63A0083714E /* TyphoonComponentsPool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA245FE1C32D79E00472525 /* TyphoonPathResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EB01936F63A0083714E /* TyphoonPathResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA245FF1C32D79E00472525 /* TyphoonDefinition+Option.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076E9E1936F63A0083714E /* TyphoonDefinition+Option.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA246001C32D79E00472525 /* TyphoonOptionMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA1C4999E7340EEBED1969 /* TyphoonOptionMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA246011C32D79E00472525 /* TyphoonDefinitionPostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EB51936F63A0083714E /* TyphoonDefinitionPostProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA246021C32D79E00472525 /* TyphooniOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F5A1936F63A0083714E /* TyphooniOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA246031C32D79E00472525 /* TyphoonAutoInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA116C73989B40B232BA11 /* TyphoonAutoInjection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA246041C32D79E00472525 /* TyphoonLoadedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA1F7A42D15F175F25EF57 /* TyphoonLoadedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA246051C32D79E00472525 /* NSObject+FactoryHooks.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F041936F63A0083714E /* NSObject+FactoryHooks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA246061C32D79E00472525 /* TyphoonIntrospectionUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F831936F63A0083714E /* TyphoonIntrospectionUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA246071C32D79E00472525 /* TyphoonComponentFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F481936F63A0083714E /* TyphoonComponentFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA246081C32D79E00472525 /* TyphoonComponentFactory+InstanceBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F121936F63A0083714E /* TyphoonComponentFactory+InstanceBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA246091C32D79E00472525 /* TyphoonInstancePostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EB61936F63A0083714E /* TyphoonInstancePostProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA2460A1C32D79E00472525 /* TyphoonResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EB21936F63A0083714E /* TyphoonResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA2460B1C32D79E00472525 /* TyphoonBundleResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EAE1936F63A0083714E /* TyphoonBundleResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA2460C1C32D79E00472525 /* TyphoonConfigPostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EA31936F63A0083714E /* TyphoonConfigPostProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA2460D1C32D79E00472525 /* TyphoonAssembly.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EEF1936F63A0083714E /* TyphoonAssembly.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA2460E1C32D79E00472525 /* TyphoonDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EE81936F63A0083714E /* TyphoonDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA2460F1C32D79E00472525 /* Typhoon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F731936F63A0083714E /* Typhoon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA246101C32D79E00472525 /* TyphoonDefinition+Infrastructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EDB1936F63A0083714E /* TyphoonDefinition+Infrastructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA246111C32D79E00472525 /* TyphoonMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EE61936F63A0083714E /* TyphoonMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA246121C32D79E00472525 /* OCLogTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F911936F63A0083714E /* OCLogTemplate.h */; };
+		BAA246131C32D79E00472525 /* TyphoonColorConversionUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F0F252E1BEA2571002AD880 /* TyphoonColorConversionUtils.h */; };
+		BAA246141C32D79E00472525 /* TyphoonOptionMatcher+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076E9D1936F63A0083714E /* TyphoonOptionMatcher+Internal.h */; };
+		BAA246151C32D79E00472525 /* TyphoonConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EA61936F63A0083714E /* TyphoonConfiguration.h */; };
+		BAA246161C32D79E00472525 /* TyphoonJsonStyleConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EA71936F63A0083714E /* TyphoonJsonStyleConfiguration.h */; };
+		BAA246171C32D79E00472525 /* TyphoonFactoryDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA1FB2212B952164C02878 /* TyphoonFactoryDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA246181C32D79E00472525 /* TyphoonPlistStyleConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EA91936F63A0083714E /* TyphoonPlistStyleConfiguration.h */; };
+		BAA246191C32D79E00472525 /* TyphoonPropertyStyleConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EAB1936F63A0083714E /* TyphoonPropertyStyleConfiguration.h */; };
+		BAA2461A1C32D79E00472525 /* TyphoonAbstractDetachableComponentFactoryPostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EB31936F63A0083714E /* TyphoonAbstractDetachableComponentFactoryPostProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA2461B1C32D79E00472525 /* TyphoonOrdered.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EB71936F63A0083714E /* TyphoonOrdered.h */; };
+		BAA2461C1C32D79E00472525 /* TyphoonStartup.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA1B7BFD38DAF1A508B22C /* TyphoonStartup.h */; };
+		BAA2461E1C32D79E00472525 /* TyphoonInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EBC1936F63A0083714E /* TyphoonInjection.h */; };
+		BAA2461F1C32D79E00472525 /* TyphoonPropertyInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076ED51936F63A0083714E /* TyphoonPropertyInjection.h */; };
+		BAA246201C32D79E00472525 /* TyphoonParameterInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076ED41936F63A0083714E /* TyphoonParameterInjection.h */; };
+		BAA246211C32D79E00472525 /* TyphoonAbstractInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EBA1936F63A0083714E /* TyphoonAbstractInjection.h */; };
+		BAA246221C32D79E00472525 /* TyphoonInjectionByCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EBD1936F63A0083714E /* TyphoonInjectionByCollection.h */; };
+		BAA246231C32D79E00472525 /* TyphoonInjectionByComponentFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EBF1936F63A0083714E /* TyphoonInjectionByComponentFactory.h */; };
+		BAA246241C32D79E00472525 /* TyphoonInjectionByConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EC11936F63A0083714E /* TyphoonInjectionByConfig.h */; };
+		BAA246251C32D79E00472525 /* TyphoonInjectionByDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EC31936F63A0083714E /* TyphoonInjectionByDictionary.h */; };
+		BAA246261C32D79E00472525 /* TyphoonInjectionByFactoryReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EC51936F63A0083714E /* TyphoonInjectionByFactoryReference.h */; };
+		BAA246271C32D79E00472525 /* TyphoonInjectionByObjectFromString.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EC71936F63A0083714E /* TyphoonInjectionByObjectFromString.h */; };
+		BAA246281C32D79E00472525 /* TyphoonInjectionByObjectInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EC91936F63A0083714E /* TyphoonInjectionByObjectInstance.h */; };
+		BAA246291C32D79E00472525 /* TyphoonInjectionByReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076ECB1936F63A0083714E /* TyphoonInjectionByReference.h */; };
+		BAA2462A1C32D79E00472525 /* TyphoonInjectionByRuntimeArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076ECD1936F63A0083714E /* TyphoonInjectionByRuntimeArgument.h */; };
+		BAA2462B1C32D79E00472525 /* TyphoonDefinition+Namespacing.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA1C1671BF8E169007030A5 /* TyphoonDefinition+Namespacing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA2462C1C32D79E00472525 /* TyphoonInjectionByType.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076ECF1936F63A0083714E /* TyphoonInjectionByType.h */; };
+		BAA2462D1C32D79E00472525 /* TyphoonDefinitionNamespace.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FA1C1641BF8E0DC007030A5 /* TyphoonDefinitionNamespace.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA2462E1C32D79E00472525 /* TyphoonInjectionContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076ED11936F63A0083714E /* TyphoonInjectionContext.h */; };
+		BAA2462F1C32D79E00472525 /* TyphoonInjectionByCurrentRuntimeArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = C949766E39C445A43A7517B8 /* TyphoonInjectionByCurrentRuntimeArguments.h */; };
+		BAA246301C32D79E00472525 /* TyphoonInjections.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076ED31936F63A0083714E /* TyphoonInjections.h */; };
+		BAA246311C32D79E00472525 /* Collections+CustomInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076ED71936F63A0083714E /* Collections+CustomInjection.h */; };
+		BAA246321C32D79E00472525 /* NSDictionary+CustomInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076ED91936F63A0083714E /* NSDictionary+CustomInjection.h */; };
+		BAA246331C32D79E00472525 /* TyphoonDefinition+InstanceBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EDD1936F63A0083714E /* TyphoonDefinition+InstanceBuilder.h */; };
+		BAA246341C32D79E00472525 /* TyphoonObjectWithCustomInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EDF1936F63A0083714E /* TyphoonObjectWithCustomInjection.h */; };
+		BAA246351C32D79E00472525 /* TyphoonReferenceDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EE01936F63A0083714E /* TyphoonReferenceDefinition.h */; };
+		BAA246361C32D79E00472525 /* TyphoonMethod+InstanceBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EE41936F63A0083714E /* TyphoonMethod+InstanceBuilder.h */; };
+		BAA246371C32D79E00472525 /* TyphoonFactoryAutoInjectionPostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA1BF807CE54BB4F51087E /* TyphoonFactoryAutoInjectionPostProcessor.h */; };
+		BAA246381C32D79E00472525 /* TyphoonNSColorTypeConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F0F25241BEA2327002AD880 /* TyphoonNSColorTypeConverter.h */; };
+		BAA246391C32D79E00472525 /* TyphoonAssembly+TyphoonAssemblyFriend.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076EEE1936F63A0083714E /* TyphoonAssembly+TyphoonAssemblyFriend.h */; };
+		BAA2463A1C32D79E00472525 /* NSInvocation+TCFInstanceBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F081936F63A0083714E /* NSInvocation+TCFInstanceBuilder.h */; };
+		BAA2463B1C32D79E00472525 /* NSInvocation+TCFUnwrapValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F0A1936F63A0083714E /* NSInvocation+TCFUnwrapValues.h */; };
+		BAA2463C1C32D79E00472525 /* NSMethodSignature+TCFUnwrapValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F0C1936F63A0083714E /* NSMethodSignature+TCFUnwrapValues.h */; };
+		BAA2463D1C32D79E00472525 /* NSValue+TCFUnwrapValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F0E1936F63A0083714E /* NSValue+TCFUnwrapValues.h */; };
+		BAA2463E1C32D79E00472525 /* TyphoonCallStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F101936F63A0083714E /* TyphoonCallStack.h */; };
+		BAA2463F1C32D79E00472525 /* TyphoonComponentFactory+TyphoonDefinitionRegisterer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F141936F63A0083714E /* TyphoonComponentFactory+TyphoonDefinitionRegisterer.h */; };
+		BAA246401C32D79E00472525 /* TyphoonFactoryPropertyInjectionPostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F151936F63A0083714E /* TyphoonFactoryPropertyInjectionPostProcessor.h */; };
+		BAA246411C32D79E00472525 /* TyphoonParentReferenceHydratingPostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F171936F63A0083714E /* TyphoonParentReferenceHydratingPostProcessor.h */; };
+		BAA246421C32D79E00472525 /* TyphoonStackElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F1A1936F63A0083714E /* TyphoonStackElement.h */; };
+		BAA246431C32D79E00472525 /* TyphoonWeakComponentsPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F1E1936F63A0083714E /* TyphoonWeakComponentsPool.h */; };
+		BAA246441C32D79E00472525 /* TyphoonDefinitionRegisterer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F4A1936F63A0083714E /* TyphoonDefinitionRegisterer.h */; };
+		BAA246451C32D79E00472525 /* TyphoonViewControllerNibResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F4F1936F63A0083714E /* TyphoonViewControllerNibResolver.h */; };
+		BAA246461C32D79E00472525 /* TyphoonStoryboardResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA129FBD11BA18D318694D /* TyphoonStoryboardResolver.h */; };
+		BAA246471C32D79E00472525 /* TyphoonInjectionDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA1463AEC1B97752A6DF8C /* TyphoonInjectionDefinition.h */; };
+		BAA246481C32D79E00472525 /* TyphoonUIColorTypeConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F581936F63A0083714E /* TyphoonUIColorTypeConverter.h */; };
+		BAA246491C32D79E00472525 /* TyphoonPatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F5F1936F63A0083714E /* TyphoonPatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA2464A1C32D79E00472525 /* TyphoonTestUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F641936F63A0083714E /* TyphoonTestUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA2464B1C32D79E00472525 /* TyphoonNSURLTypeConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F681936F63A0083714E /* TyphoonNSURLTypeConverter.h */; };
+		BAA2464C1C32D79E00472525 /* TyphoonPassThroughTypeConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F6A1936F63A0083714E /* TyphoonPassThroughTypeConverter.h */; };
+		BAA2464D1C32D79E00472525 /* TyphoonPrimitiveTypeConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F6C1936F63A0083714E /* TyphoonPrimitiveTypeConverter.h */; };
+		BAA2464E1C32D79E00472525 /* TyphoonNSNumberTypeConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = BA79856305370AE9A94F8B87 /* TyphoonNSNumberTypeConverter.h */; };
+		BAA2464F1C32D79E00472525 /* TyphoonTypeDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F711936F63A0083714E /* TyphoonTypeDescriptor.h */; };
+		BAA246501C32D79E00472525 /* NSArray+TyphoonManualEnumeration.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F771936F63A0083714E /* NSArray+TyphoonManualEnumeration.h */; };
+		BAA246511C32D79E00472525 /* NSObject+DeallocNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F791936F63A0083714E /* NSObject+DeallocNotification.h */; };
+		BAA246521C32D79E00472525 /* NSObject+PropertyInjection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F7B1936F63A0083714E /* NSObject+PropertyInjection.h */; };
+		BAA246531C32D79E00472525 /* NSObject+TyphoonIntrospectionUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F7D1936F63A0083714E /* NSObject+TyphoonIntrospectionUtils.h */; };
+		BAA246541C32D79E00472525 /* TyphoonMethodSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F801936F63A0083714E /* TyphoonMethodSwizzler.h */; };
+		BAA246551C32D79E00472525 /* TyphoonSwizzlerDefaultImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F811936F63A0083714E /* TyphoonSwizzlerDefaultImpl.h */; };
+		BAA246561C32D79E00472525 /* TyphoonLinkerCategoryBugFix.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F861936F63A0083714E /* TyphoonLinkerCategoryBugFix.h */; };
+		BAA246571C32D79E00472525 /* TyphoonSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F891936F63A0083714E /* TyphoonSelector.h */; };
+		BAA246581C32D79E00472525 /* TyphoonUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B076F8B1936F63A0083714E /* TyphoonUtils.h */; };
+		BAA246591C32D79E00472525 /* TyphoonCollaboratingAssemblyPropertyEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7987F196CD235B8F36B562 /* TyphoonCollaboratingAssemblyPropertyEnumerator.h */; };
+		BAA2465A1C32D79E00472525 /* TyphoonGlobalConfigCollector.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1187A61BEFE452008859E0 /* TyphoonGlobalConfigCollector.h */; };
+		BAA2465B1C32D79E00472525 /* TyphoonCollaboratingAssemblyProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = BA79881EB8B96916405FA6B3 /* TyphoonCollaboratingAssemblyProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA2465C1C32D79E00472525 /* TyphoonStoryboardProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FDF58CC1BA4162100678B2B /* TyphoonStoryboardProvider.h */; };
+		BAA2465D1C32D79E00472525 /* TyphoonViewHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 8946F2DE1B8E403E005C4954 /* TyphoonViewHelpers.h */; };
+		BAA2465E1C32D79E00472525 /* TyphoonPreattachedComponentsRegisterer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F11879F1BEE22F2008859E0 /* TyphoonPreattachedComponentsRegisterer.h */; };
+		BAA2465F1C32D79E00472525 /* TyphoonBlockComponentFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = BA798C36DD67C0C40FFC8515 /* TyphoonBlockComponentFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA246601C32D79E00472525 /* TyphoonCircularDependencyTerminator.h in Headers */ = {isa = PBXBuildFile; fileRef = BA798523917117336D10D4B5 /* TyphoonCircularDependencyTerminator.h */; };
+		BAA246611C32D79E00472525 /* TyphoonAssemblyDefinitionBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = BA79869C3D7F0E093FD683A1 /* TyphoonAssemblyDefinitionBuilder.h */; };
+		BAA246621C32D79E00472525 /* TyphoonAssemblyActivator.h in Headers */ = {isa = PBXBuildFile; fileRef = BA79802001176CAE1C666D5B /* TyphoonAssemblyActivator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA246631C32D79E00472525 /* TyphoonAssemblyAdviser.h in Headers */ = {isa = PBXBuildFile; fileRef = BA7984E001941FD55401039C /* TyphoonAssemblyAdviser.h */; };
+		BAA246641C32D79E00472525 /* TyphoonTypeConversionUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F0F25121BEA1267002AD880 /* TyphoonTypeConversionUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA246651C32D79E00472525 /* TyphoonAssemblyPropertyInjectionPostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = BA798FD5D1EF1D40E236F6DA /* TyphoonAssemblyPropertyInjectionPostProcessor.h */; };
+		BAA246661C32D79E00472525 /* TyphoonRuntimeArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = BA798B349FA5B7857095FD5E /* TyphoonRuntimeArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAA246671C32D79E00472525 /* TyphoonAssemblySelectorAdviser.h in Headers */ = {isa = PBXBuildFile; fileRef = BA79874870787742D2D095E5 /* TyphoonAssemblySelectorAdviser.h */; };
 		BABA30301C2816D500301070 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		BABA30321C2816DB00301070 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		BABA32171C28180300301070 /* TyphoonViewControllerNibResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B076F501936F63A0083714E /* TyphoonViewControllerNibResolver.m */; };
@@ -2774,7 +2884,117 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BABA302A1C2816BD00301070 /* (null) in Headers */,
+				BAA245F81C32D79E00472525 /* TyphoonBundledImageTypeConverter.h in Headers */,
+				BAA245F91C32D79E00472525 /* TyphoonTypeConverter.h in Headers */,
+				BAA245FA1C32D79E00472525 /* TyphoonTypeConverterRegistry.h in Headers */,
+				BAA245FB1C32D79E00472525 /* TyphoonStoryboard.h in Headers */,
+				BAA245FC1C32D79E00472525 /* TyphoonInjectedObject.h in Headers */,
+				BAA245FD1C32D79E00472525 /* TyphoonComponentsPool.h in Headers */,
+				BAA245FE1C32D79E00472525 /* TyphoonPathResource.h in Headers */,
+				BAA245FF1C32D79E00472525 /* TyphoonDefinition+Option.h in Headers */,
+				BAA246001C32D79E00472525 /* TyphoonOptionMatcher.h in Headers */,
+				BAA246011C32D79E00472525 /* TyphoonDefinitionPostProcessor.h in Headers */,
+				BAA246021C32D79E00472525 /* TyphooniOS.h in Headers */,
+				BAA246031C32D79E00472525 /* TyphoonAutoInjection.h in Headers */,
+				BAA246041C32D79E00472525 /* TyphoonLoadedView.h in Headers */,
+				BAA246051C32D79E00472525 /* NSObject+FactoryHooks.h in Headers */,
+				BAA246061C32D79E00472525 /* TyphoonIntrospectionUtils.h in Headers */,
+				BAA246071C32D79E00472525 /* TyphoonComponentFactory.h in Headers */,
+				BAA246081C32D79E00472525 /* TyphoonComponentFactory+InstanceBuilder.h in Headers */,
+				BAA246091C32D79E00472525 /* TyphoonInstancePostProcessor.h in Headers */,
+				BAA2460A1C32D79E00472525 /* TyphoonResource.h in Headers */,
+				BAA2460B1C32D79E00472525 /* TyphoonBundleResource.h in Headers */,
+				BAA2460C1C32D79E00472525 /* TyphoonConfigPostProcessor.h in Headers */,
+				BAA2460D1C32D79E00472525 /* TyphoonAssembly.h in Headers */,
+				BAA2460E1C32D79E00472525 /* TyphoonDefinition.h in Headers */,
+				BAA2460F1C32D79E00472525 /* Typhoon.h in Headers */,
+				BAA246101C32D79E00472525 /* TyphoonDefinition+Infrastructure.h in Headers */,
+				BAA246111C32D79E00472525 /* TyphoonMethod.h in Headers */,
+				BAA246171C32D79E00472525 /* TyphoonFactoryDefinition.h in Headers */,
+				BAA2461A1C32D79E00472525 /* TyphoonAbstractDetachableComponentFactoryPostProcessor.h in Headers */,
+				BAA2462B1C32D79E00472525 /* TyphoonDefinition+Namespacing.h in Headers */,
+				BAA2462D1C32D79E00472525 /* TyphoonDefinitionNamespace.h in Headers */,
+				BAA246491C32D79E00472525 /* TyphoonPatcher.h in Headers */,
+				BAA2464A1C32D79E00472525 /* TyphoonTestUtils.h in Headers */,
+				BAA2465B1C32D79E00472525 /* TyphoonCollaboratingAssemblyProxy.h in Headers */,
+				BAA2465F1C32D79E00472525 /* TyphoonBlockComponentFactory.h in Headers */,
+				BAA246621C32D79E00472525 /* TyphoonAssemblyActivator.h in Headers */,
+				BAA246641C32D79E00472525 /* TyphoonTypeConversionUtils.h in Headers */,
+				BAA246661C32D79E00472525 /* TyphoonRuntimeArguments.h in Headers */,
+				BAA246121C32D79E00472525 /* OCLogTemplate.h in Headers */,
+				BAA246131C32D79E00472525 /* TyphoonColorConversionUtils.h in Headers */,
+				BAA246141C32D79E00472525 /* TyphoonOptionMatcher+Internal.h in Headers */,
+				BAA246151C32D79E00472525 /* TyphoonConfiguration.h in Headers */,
+				BAA246161C32D79E00472525 /* TyphoonJsonStyleConfiguration.h in Headers */,
+				BAA246181C32D79E00472525 /* TyphoonPlistStyleConfiguration.h in Headers */,
+				BAA246191C32D79E00472525 /* TyphoonPropertyStyleConfiguration.h in Headers */,
+				BAA2461B1C32D79E00472525 /* TyphoonOrdered.h in Headers */,
+				BAA2461C1C32D79E00472525 /* TyphoonStartup.h in Headers */,
+				BAA2461E1C32D79E00472525 /* TyphoonInjection.h in Headers */,
+				BAA2461F1C32D79E00472525 /* TyphoonPropertyInjection.h in Headers */,
+				BAA246201C32D79E00472525 /* TyphoonParameterInjection.h in Headers */,
+				BAA246211C32D79E00472525 /* TyphoonAbstractInjection.h in Headers */,
+				BAA246221C32D79E00472525 /* TyphoonInjectionByCollection.h in Headers */,
+				BAA246231C32D79E00472525 /* TyphoonInjectionByComponentFactory.h in Headers */,
+				BAA246241C32D79E00472525 /* TyphoonInjectionByConfig.h in Headers */,
+				BAA246251C32D79E00472525 /* TyphoonInjectionByDictionary.h in Headers */,
+				BAA246261C32D79E00472525 /* TyphoonInjectionByFactoryReference.h in Headers */,
+				BAA246271C32D79E00472525 /* TyphoonInjectionByObjectFromString.h in Headers */,
+				BAA246281C32D79E00472525 /* TyphoonInjectionByObjectInstance.h in Headers */,
+				BAA246291C32D79E00472525 /* TyphoonInjectionByReference.h in Headers */,
+				BAA2462A1C32D79E00472525 /* TyphoonInjectionByRuntimeArgument.h in Headers */,
+				BAA2462C1C32D79E00472525 /* TyphoonInjectionByType.h in Headers */,
+				BAA2462E1C32D79E00472525 /* TyphoonInjectionContext.h in Headers */,
+				BAA2462F1C32D79E00472525 /* TyphoonInjectionByCurrentRuntimeArguments.h in Headers */,
+				BAA246301C32D79E00472525 /* TyphoonInjections.h in Headers */,
+				BAA246311C32D79E00472525 /* Collections+CustomInjection.h in Headers */,
+				BAA246321C32D79E00472525 /* NSDictionary+CustomInjection.h in Headers */,
+				BAA246331C32D79E00472525 /* TyphoonDefinition+InstanceBuilder.h in Headers */,
+				BAA246341C32D79E00472525 /* TyphoonObjectWithCustomInjection.h in Headers */,
+				BAA246351C32D79E00472525 /* TyphoonReferenceDefinition.h in Headers */,
+				BAA246361C32D79E00472525 /* TyphoonMethod+InstanceBuilder.h in Headers */,
+				BAA246371C32D79E00472525 /* TyphoonFactoryAutoInjectionPostProcessor.h in Headers */,
+				BAA246381C32D79E00472525 /* TyphoonNSColorTypeConverter.h in Headers */,
+				BAA246391C32D79E00472525 /* TyphoonAssembly+TyphoonAssemblyFriend.h in Headers */,
+				BAA2463A1C32D79E00472525 /* NSInvocation+TCFInstanceBuilder.h in Headers */,
+				BAA2463B1C32D79E00472525 /* NSInvocation+TCFUnwrapValues.h in Headers */,
+				BAA2463C1C32D79E00472525 /* NSMethodSignature+TCFUnwrapValues.h in Headers */,
+				BAA2463D1C32D79E00472525 /* NSValue+TCFUnwrapValues.h in Headers */,
+				BAA2463E1C32D79E00472525 /* TyphoonCallStack.h in Headers */,
+				BAA2463F1C32D79E00472525 /* TyphoonComponentFactory+TyphoonDefinitionRegisterer.h in Headers */,
+				BAA246401C32D79E00472525 /* TyphoonFactoryPropertyInjectionPostProcessor.h in Headers */,
+				BAA246411C32D79E00472525 /* TyphoonParentReferenceHydratingPostProcessor.h in Headers */,
+				BAA246421C32D79E00472525 /* TyphoonStackElement.h in Headers */,
+				BAA246431C32D79E00472525 /* TyphoonWeakComponentsPool.h in Headers */,
+				BAA246441C32D79E00472525 /* TyphoonDefinitionRegisterer.h in Headers */,
+				BAA246451C32D79E00472525 /* TyphoonViewControllerNibResolver.h in Headers */,
+				BAA246461C32D79E00472525 /* TyphoonStoryboardResolver.h in Headers */,
+				BAA246471C32D79E00472525 /* TyphoonInjectionDefinition.h in Headers */,
+				BAA246481C32D79E00472525 /* TyphoonUIColorTypeConverter.h in Headers */,
+				BAA2464B1C32D79E00472525 /* TyphoonNSURLTypeConverter.h in Headers */,
+				BAA2464C1C32D79E00472525 /* TyphoonPassThroughTypeConverter.h in Headers */,
+				BAA2464D1C32D79E00472525 /* TyphoonPrimitiveTypeConverter.h in Headers */,
+				BAA2464E1C32D79E00472525 /* TyphoonNSNumberTypeConverter.h in Headers */,
+				BAA2464F1C32D79E00472525 /* TyphoonTypeDescriptor.h in Headers */,
+				BAA246501C32D79E00472525 /* NSArray+TyphoonManualEnumeration.h in Headers */,
+				BAA246511C32D79E00472525 /* NSObject+DeallocNotification.h in Headers */,
+				BAA246521C32D79E00472525 /* NSObject+PropertyInjection.h in Headers */,
+				BAA246531C32D79E00472525 /* NSObject+TyphoonIntrospectionUtils.h in Headers */,
+				BAA246541C32D79E00472525 /* TyphoonMethodSwizzler.h in Headers */,
+				BAA246551C32D79E00472525 /* TyphoonSwizzlerDefaultImpl.h in Headers */,
+				BAA246561C32D79E00472525 /* TyphoonLinkerCategoryBugFix.h in Headers */,
+				BAA246571C32D79E00472525 /* TyphoonSelector.h in Headers */,
+				BAA246581C32D79E00472525 /* TyphoonUtils.h in Headers */,
+				BAA246591C32D79E00472525 /* TyphoonCollaboratingAssemblyPropertyEnumerator.h in Headers */,
+				BAA2465A1C32D79E00472525 /* TyphoonGlobalConfigCollector.h in Headers */,
+				BAA2465C1C32D79E00472525 /* TyphoonStoryboardProvider.h in Headers */,
+				BAA2465D1C32D79E00472525 /* TyphoonViewHelpers.h in Headers */,
+				BAA2465E1C32D79E00472525 /* TyphoonPreattachedComponentsRegisterer.h in Headers */,
+				BAA246601C32D79E00472525 /* TyphoonCircularDependencyTerminator.h in Headers */,
+				BAA246611C32D79E00472525 /* TyphoonAssemblyDefinitionBuilder.h in Headers */,
+				BAA246631C32D79E00472525 /* TyphoonAssemblyAdviser.h in Headers */,
+				BAA246651C32D79E00472525 /* TyphoonAssemblyPropertyInjectionPostProcessor.h in Headers */,
+				BAA246671C32D79E00472525 /* TyphoonAssemblySelectorAdviser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
