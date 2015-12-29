@@ -850,8 +850,9 @@
 		BAA246651C32D79E00472525 /* TyphoonAssemblyPropertyInjectionPostProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = BA798FD5D1EF1D40E236F6DA /* TyphoonAssemblyPropertyInjectionPostProcessor.h */; };
 		BAA246661C32D79E00472525 /* TyphoonRuntimeArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = BA798B349FA5B7857095FD5E /* TyphoonRuntimeArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAA246671C32D79E00472525 /* TyphoonAssemblySelectorAdviser.h in Headers */ = {isa = PBXBuildFile; fileRef = BA79874870787742D2D095E5 /* TyphoonAssemblySelectorAdviser.h */; };
-		BABA30301C2816D500301070 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
-		BABA30321C2816DB00301070 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		BAA246681C32DCC200472525 /* development_Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA798DE311DBEFCDDB3D09AA /* development_Config.plist */; };
+		BAA2466A1C32DCD900472525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA246691C32DCD900472525 /* Foundation.framework */; };
+		BAA2466C1C32DCDF00472525 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA2466B1C32DCDF00472525 /* UIKit.framework */; };
 		BABA32171C28180300301070 /* TyphoonViewControllerNibResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B076F501936F63A0083714E /* TyphoonViewControllerNibResolver.m */; };
 		BABA32181C28180300301070 /* TyphoonStoryboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B076F531936F63A0083714E /* TyphoonStoryboard.m */; };
 		BABA32191C28180300301070 /* TyphoonStoryboardResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1F19AACBE84474E823C4 /* TyphoonStoryboardResolver.m */; };
@@ -1444,6 +1445,8 @@
 		BA798ED676117FF87AE981EB /* TyphoonCollaboratingAssemblyPropertyEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TyphoonCollaboratingAssemblyPropertyEnumerator.m; sourceTree = "<group>"; };
 		BA798F958813EEAAAF528D26 /* TyphoonStartupTests_OSX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TyphoonStartupTests_OSX.m; sourceTree = "<group>"; };
 		BA798FD5D1EF1D40E236F6DA /* TyphoonAssemblyPropertyInjectionPostProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyphoonAssemblyPropertyInjectionPostProcessor.h; sourceTree = "<group>"; };
+		BAA246691C32DCD900472525 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BAA2466B1C32DCDF00472525 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C94972BE857448DEBA12C1CE /* TyphoonInjectionByCurrentRuntimeArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TyphoonInjectionByCurrentRuntimeArguments.m; sourceTree = "<group>"; };
 		C949758EA994B0137DD95E6D /* Mock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mock.h; sourceTree = "<group>"; };
 		C949766E39C445A43A7517B8 /* TyphoonInjectionByCurrentRuntimeArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TyphoonInjectionByCurrentRuntimeArguments.h; sourceTree = "<group>"; };
@@ -1528,8 +1531,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BABA30321C2816DB00301070 /* (null) in Frameworks */,
-				BABA30301C2816D500301070 /* (null) in Frameworks */,
+				BAA2466C1C32DCDF00472525 /* UIKit.framework in Frameworks */,
+				BAA2466A1C32DCD900472525 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1609,6 +1612,8 @@
 		6B076E5C1936F5850083714E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BAA2466B1C32DCDF00472525 /* UIKit.framework */,
+				BAA246691C32DCD900472525 /* Foundation.framework */,
 				6B076E5D1936F5850083714E /* Foundation.framework */,
 				6B076E5F1936F5850083714E /* CoreGraphics.framework */,
 				6B076E611936F5850083714E /* UIKit.framework */,
@@ -3331,6 +3336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAA246681C32DCC200472525 /* development_Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
