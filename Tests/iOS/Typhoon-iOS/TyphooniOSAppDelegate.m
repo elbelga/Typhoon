@@ -35,8 +35,8 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
-    extern void __gcov_flush(void);
-    __gcov_flush();
+//    extern void __gcov_flush(void);
+//    __gcov_flush();
 }
 
 - (NSUInteger)damselsRescued
